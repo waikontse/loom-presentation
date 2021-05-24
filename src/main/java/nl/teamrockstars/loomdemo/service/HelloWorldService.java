@@ -11,8 +11,4 @@ public class HelloWorldService {
             e.printStackTrace();
         }
     }
-
-    public void wasteTime2() {
-        Thread.startVirtualThread(this::wasteTime);
-    }
 }
